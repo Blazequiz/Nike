@@ -3,55 +3,73 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nike</title>
+  <title>Nike</title><link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400..900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./CSS/reset.css">
+  <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <a href="./index.html"><img src="" alt="logo"></a>
-      <ul>
-        <li><a href="./index.html">Main page</a></li>
-        <li><a href="#">Benefits</a></li>
-        <li><a href="#">Advantages</a></li>
-        <li><a href="#">Reviews</a></li>
-        <li><a href="#">Contacts</a></li>
-        <li><a href="#"></a>Order</li>
-      </ul>
-    </nav>
+  <header class="header">
+    <div class="container">
+      <nav class="header-nav">
+        <a href="./index.html"><img src="./img/logo.svg" alt="nike-logo"></a>
+        <ul class="nav-list">
+          <li class="nav-list-item"><a href="./index.html">Main page</a></li>
+          <li class="nav-list-item"><a href="#">Benefits</a></li>
+          <li class="nav-list-item"><a href="#">Advantages</a></li>
+          <li class="nav-list-item"><a href="#">Reviews</a></li>
+          <li class="nav-list-item"><a href="#">Contacts</a></li>
+          <li class="nav-list-item"><a href="#">Order</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <!-- hero section -->
     <section class="hero-section">
-      <img src="" alt="">
-      <h2>С&R</h2>
+      <div class="container">
+        <img src="./img/logo.svg" alt="nike-logo">
+      <h2 class="hero-h2">С&R</h2>
       <h1>ColoRawe</h1>
-      <h2>Your dream Nike</h2>
-      <p>
-        On this site you can find custom Nike sneakers of your dreams. 
-        The original company caт`t create such beautiful 
-        sneakers as we do.
+      <h2 class="hero-scnd-h2">Your dream Nike</h2>
+      <p class="hero-paraagraph">
+        On this site you can find custom Nike sneakers of your dreams. <br>
+        The original company caт`t create such beautiful <br>
+        sneakers as we do. <br>
         Good luck finding your way in the world of custom sneakers.
       </p>
-      <button>
+      <button class="hero-btn">
         Buy my Nike
       </button>
+    </div>
     </section>
     <!-- section-about -->
     <section class="section-about">
-      <ul>
-        <li>
-          <h3>Premium Quality</h3>
-          <img src="" alt="">
-        </li>
-        <li>
-          <h3>Indelible paint</h3>
-          <img src="" alt="">
-        </li>
-        <li>
-          <h3>Fast shipping</h3>
-          <img src="" alt="">
-        </li>
-      </ul>
+      <div class="container">
+        <ul class="section-about-list">
+          <li class="section-about-element">
+            <h3>Premium <br> Quality</h3>
+            <img src="./img/first-decoration-img.svg" alt="first-decoration-img">
+          </li>
+          <li>
+            <div class="first-decoration-element"></div>
+          </li>
+          <li class="section-about-element">
+            <div class="section-about-wrapper">
+              <h3 >Indelible <br> paint</h3>
+              <img src="./img/second-decoration-img.svg" alt="second-decoration-img">
+            </div>
+          </li>
+          <li>
+            <div class="second-decoration-eelemnt"></div>
+          </li>
+          <li class="section-about-element">
+            <h3 >Fast <br> shipping</h3>
+            <img src="./img/third-decoration-img.svg" alt="third-decoration-img">
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="section-reviews">
       <!-- section reviews -->

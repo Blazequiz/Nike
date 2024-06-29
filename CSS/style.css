@@ -1,0 +1,115 @@
+:root {
+--font-family: "Roboto", sans-serif;
+--second-family: "Playfair Display", sans-serif;
+--third-family: "PT Serif", sans-serif;
+}
+body {
+  /* background-color: #031737; */
+}
+h1 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 144px;
+  color: #fff;
+}
+h3 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+}
+.container {
+  width: 1147px;
+  padding: 0 15px;
+  outline: 2px dashed plum;
+  margin: 0 auto;
+}
+/* header */
+.header {
+  /* margin-bottom: 94px; */
+ background-color: #012D63;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: 29px;
+  margin-left: auto;
+}
+.nav-list-item {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 24px;
+  color: #c7c7c7;
+}
+/* section hero */
+.hero-section {
+  padding-top: 94px;
+  padding-bottom: 179px;
+  background-image: url(../img/hero-bg-jpeg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero-h2 {
+  font-family: var(--third-family);
+  font-weight: 400;
+  font-size: 48px;
+  color: #fff;
+}
+.hero-scnd-h2 {
+  margin-bottom: 12px;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 72px;
+  color: #fff;
+}
+.hero-paraagraph {
+  margin-bottom: 41px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+.hero-btn {
+  padding: 20px 61px;
+  color: #fff;
+  border-radius: 10px;
+  background: #8e32c6;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+}
+/* section about */
+.section-about {
+  padding-top: 105px;
+  padding-bottom: 105px;
+  background-color: #012D63;
+  background-image: url(../img/section-about-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.first-decoration-element,
+.second-decoration-eelemnt 
+{
+  background-color: #FFF;
+  height: 346px;
+  width: 2px;
+}
+.section-about-list {
+  padding: 25px 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  border: 5px solid #8e32c6;
+}
+.section-about-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.section-about-element {
+  text-align: center;
+}
