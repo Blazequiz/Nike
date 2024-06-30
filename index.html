@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nike</title><link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400..900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>Nike</title>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@400..900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./CSS/reset.css">
   <link rel="stylesheet" href="./CSS/style.css">
@@ -73,104 +74,131 @@
     </section>
     <section class="section-reviews">
       <!-- section reviews -->
-      <h2>Reviews</h2>
-      <ul>
-        <li>
-          <h4>
+      <div class="container">
+        <h2 class="section-reviews-title">Reviews</h2>
+      <ul class="section-reviews-list">
+        <li class="section-reviews-list-item section-reviews-first-list-item">
+           <p class="section-reviews-first-paragraph">    <!-- first p -->
             Sneakers are very 
             comfortable and well 
             painted, nothing has 
-            worn off in a year.
-          </h4>
-          <p>25.11</p>
-          <img src="" alt="">
-          <h3>John Teylor</h3>
-          <p>With us from 2018</p>
+            worn off in a year. 
+          </p>
+          <p class="paragraph-data">25.11</p> <!-- scnd p -->                                                                                     
+          <div class="wrapper-for-reviews-sectin-item">
+            <img src="./img/John-Teylor.svg" alt="John-Teylor">
+            <div>
+              <h3 class="section-reviews-h3">John Teylor</h3>
+              <p class="section-reviews-last-paragraph">With us from 2018</p> <!-- last p -->
+            </div>
+          </div>
         </li>
-        <li>
-          <h4>
-            I'm very happy with this color scheme.
-            They match all my clothes.
-          </h4>
-          <p>05.01</p>
-          <img src="" alt="">
-          <h3>Elizabeth Garsia</h3>
-          <p>With us from 2020</p>
+        <li class="section-reviews-list-item section-reviews-scnd-list-item">
+          <p class="section-reviews-first-paragraph"> <!-- first p -->
+            I'm very happy with <br> this color scheme. <br>
+            They match all my <br> clothes. 
+          </p> 
+          <p class="paragraph-data">05.01</p> <!-- scnd p -->
+          <div class="wrapper-for-reviews-sectin-item">
+            <img src="./img/Elizabeth-Garsia.svg" alt="Elizabeth-Garsia">
+            <div>
+              <h3 class="section-reviews-h3">Elizabeth Garsia</h3> 
+              <p class="section-reviews-last-paragraph">With us from 2020</p> <!-- last p -->
+            </div>
+          </div>
         </li>
-        <li>
-          <h4>
-            Just right if you need to go to a party.
-            I use them actively, the paint is super.
-          </h4>
-          <p>18.06</p>
-          <img src="" alt="">
-          <h3>Tom Maquare</h3>
-          <p>With us from 2019</p>
+        <li class="section-reviews-list-item section-reviews-third-list-item">
+          <p class="section-reviews-first-paragraph"> <!-- first p -->
+            Just right if you need <br> to go to a party. <br>
+            I use them actively, <br> the paint is super. <br>
+          </p>
+          <p class="paragraph-data">18.06</p> <!-- scnd p -->
+         <div class="wrapper-for-reviews-sectin-item">
+          <img src="./img/Tom-Maquare.svg" alt="Tom-Maquare">
+          <div>
+          <h3 class="section-reviews-h3">Tom Maquare</h3>
+          <p class="section-reviews-last-paragraph">With us from 2019</p> <!-- last p -->
+          </div>
+         </div>
         </li>
       </ul>
+    </div>
     </section>
+    <!-- section order -->
     <section class="section-order">
-      <h2>Order</h2>
-      <form class="sign_up-form">
-          <label class="form-element">
-            <input type="text" name="email" placeholder="Your E-mail" class="placeholder-email">
-          </label> 
-          <label class="form-element">
-            <input type="text" name="country" placeholder="Your Country" class="placeholder-country">
-          </label>
-          <label class="form-element">
-            <input type="text" name="city" placeholder="Your City" class="placeholder-city">
-          </label>
-          <label class="form-element">
-            <input type="text" name="adress" placeholder="Your Adress" class="placeholder-adress">
-          </label>
-      </form>
+      <div class="container">
+        <h2 class="section-order-title">Order</h2>
+        <form class="sign_up-form">
+            <label class="form-element">
+              <input type="text" name="email" placeholder="Your E-mail" class="placeholder-email">
+              <button class="confirm-btn">Confirm</button>
+            </label> 
+            <label class="form-element">
+              <input type="text" name="country" placeholder="Your Country" class="placeholder-country">
+              <button class="confirm-btn">Confirm</button>
+            </label>
+            <label class="form-element">
+              <input type="text" name="city" placeholder="Your City" class="placeholder-city">
+              <button class="confirm-btn">Confirm</button>
+            </label>
+            <label class="form-element">
+              <input type="text" name="adress" placeholder="Your Adress" class="placeholder-adress">
+              <button class="confirm-btn">Confirm</button>
+            </label>
+            <button class="order-btn">Order my Nike</button>
+        </form>
+      </div>
     </section>
   </main>
-  <footer>
-    <ul>
-      <ul>
+  <!--  footer  -->
+  <footer class="footer">
+    <div class="container">
+      <ul class="first-footer-list">
+        <ul class="first-footer-chld">
+          <li class="first-footer-chld-item">
+            <p>Have a question?</p>
+          </li>
+          <li class="first-footer-chld-item">
+            <p>Have a proposal for cooperation?</p>
+          </li>
+          <li class="first-footer-chld-item">
+            <p>Advertising questions?</p>
+          </li>
+        </ul>
+        <ul class="second-footer-chld">
+          <li><a href="mailto:info@devstudio.com">ColoRawe_support@gmail.com</a></li>
+          <li><a href="mailto:info@devstudio.com">ColoRawe_Cooperation@gmail.com</a></li>
+          <li><a href="mailto:info@devstudio.com">ColoRawe_Advertising@gmail.com</a></li>
+        </ul>
+      </ul>
+      <!-- second footer ul -->
+       <div class="decoration-element-footer"></div>
+  <ul class="footer-second-part-first-list">
+    <li>
+      <ul class="footer-second-part-first-list-child-first">
         <li>
-          <p>Have a question?</p>
+          <p class="footer-p">2022 ColoRawe &commat;
+            All rights reserved</p>
         </li>
         <li>
-          <p>Have a proposal for cooperation?</p>
-        </li>
-        <li>
-          <p>Advertising questions?</p>
+          <p class="footer-p">United States</p>
         </li>
       </ul>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">ColoRawe_support@gmail.com</a></li>
-        <li><a href="mailto:info@devstudio.com">ColoRawe_Cooperation@gmail.com</a></li>
-        <li><a href="mailto:info@devstudio.com">ColoRawe_Advertising@gmail.com</a></li>
+    </li>
+    <li>
+      <ul class="footer-second-part-first-list-child-scnd">
+        <li>
+          <img src="./img/logo.svg" alt="logo">
+        </li>
+        <li>
+          <p class="footer-last-p">
+            С&R
+          </p>
+        </li>
       </ul>
-    </ul>
-    <!-- second footer ul -->
-<ul>
-  <li>
-    <ul>
-      <li>
-        <p>2022 ColoRawe @All rights reserved</p>
-      </li>
-      <li>
-        <p>United States</p>
-      </li>
-    </ul>
-  </li>
-  <li>
-    <ul>
-      <li>
-        <img src="" alt="">
-      </li>
-      <li>
-        <p>
-          С&R
-        </p>
-      </li>
-    </ul>
-  </li>
-</ul>
+    </li>
+  </ul>
+    </div>
   </footer>
 </body>
 </html>
